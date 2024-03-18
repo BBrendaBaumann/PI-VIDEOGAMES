@@ -1,0 +1,120 @@
+html {
+	scroll-behavior: smooth;
+
+	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	
+}
+
+section#shadow-host-companion{
+	display:none;
+}
+
+
+body {
+	background-image: url("../img/bgpage.png");
+	font-family:'Lucida Sans Unicode';
+	color: #ff73ea;
+	font-size: 0.9rem;
+    }
+
+
+
+.blue {
+	color: #ff194f;
+	font-family:'Lucida Sans Unicode';
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+}
+
+.gray {
+	color: #ff5f84ac;
+	font-family: 'Lucida Sans Unicode';
+	font-style: italic;
+	font-size: 15px;
+}
+
+section {
+	min-height: 100vh;
+	padding: 30px 0;
+}
+
+button {
+	background: #ff2d2dd5;
+	border: none;
+	color: #fff;
+	font-family: 'Lucida Sans Unicode';
+	padding: 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+button:hover {
+	background: #a613d7ad;
+	
+	cursor: pointer;
+}
+
+label {
+	font-weight: 600;
+	font-size: 5px;
+	letter-spacing: 1px;
+}
+
+.small {
+	font-weight: 600;
+	font-size: 0.7rem;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.1s ease;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+}
+
+a:hover {
+	color: #ef5f11;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.error {
+	font-size: 0.9rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 3px;
+	text-align: center;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background-color: #f2dede;
+	margin-bottom: 10px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}

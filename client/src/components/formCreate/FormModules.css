@@ -1,0 +1,166 @@
+.formCreate {
+	background-color: #1e1f2684;
+	padding: 30px;
+	max-width: 800px;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.formCreate h2 {
+	font-family:'Lucida Sans Unicode';
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.formCreate .inputs {
+	font-size: 23px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.formCreate .inputs::placeholder{
+	color: wheat;
+
+}
+
+.formCreate .inputs div {
+	font-size: 23px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.formCreate .inputs .flex {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.formCreate .inputs .flex div {
+	flex: 1;
+}
+
+.formCreate .inputs div label {
+	font-family:'Lucida Sans Unicode';
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: normal;
+}
+
+.formCreate .inputs div select {
+	height: 40px;
+}
+
+.formCreate .inputs div input,
+.formCreate .inputs div select {
+	width: 100%;
+	padding: 7px;
+	border: none;
+	background-color: #d201bd75 !important;
+	color: #fff;
+	font-size: 21px;
+}
+
+.formCreate .inputs div input:focus,
+.formCreate .inputs div select:focus,
+.formCreate .inputs div textarea:focus {
+	outline: none;
+}
+
+.formCreate .inputs div input:-webkit-autofill,
+.formCreate .inputs div select:-webkit-autofill {
+	-webkit-text-fill-color: #fff !important;
+	-webkit-box-shadow: 0 0 0 30px #32353c inset !important;
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-transition: background-color 5000s ease-in-out 0s;
+	-moz-transition: background-color 5000s ease-in-out 0s;
+	-ms-transition: background-color 5000s ease-in-out 0s;
+	-o-transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	filter: invert(1);
+}
+
+.formCreate .inputs div textarea {
+	padding: 10px;
+	border: none;
+	min-height: 200px;
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+	background-color: #c200d38f !important;
+	color: #fff;
+}
+
+.formCreate .inputs button {
+	margin-top: 15px;
+	font-family:'Lucida Sans Unicode';
+}
+
+.formCreate .inputs .list {
+	min-height: 130px;
+	background-color: #c804be8a;
+	padding: 15px;
+}
+
+.formCreate .inputs .list ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.formCreate .inputs .list ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	background-color: #c100b881;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	position: relative;
+	padding: 15px 20px;
+}
+
+.formCreate .inputs .list ul li button {
+	position: absolute;
+	right: -10px;
+	z-index: 999;
+	top: -26px;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+	.formCreate .inputs .flex {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		width: 100%;
+	}
+
+	.formCreate .inputs .flex div {
+		width: 100%;
+	}
+}
